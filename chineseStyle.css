@@ -533,6 +533,9 @@ padding-top: 5px
 .md-lang{
 	color: rgb(233, 241, 246);
 }
+h1{
+    border: none;
+}
 
 
 
