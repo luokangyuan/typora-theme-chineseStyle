@@ -536,6 +536,63 @@ padding-top: 5px
 h1{
     border: none;
 }
-
-
-
+.pin-outline #typora-sidebar {
+    left: 0;
+    background: #50616d;
+}
+.outline-item:hover{
+    background: transparent;
+    color: #ffb3a7
+}
+.outline-label:hover {
+    text-decoration: none;
+}
+html{
+    background: #50616d;
+}
+.pin-outline #outline-content .outline-active strong, .pin-outline .outline-active {
+    font-weight: 700;
+    color: #ffb3a7;
+}
+.modal-content {
+    background-color: #50616d;
+}
+#table-insert-col, #table-insert-row {
+    margin-left: 8px;
+    background: #50616d;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: none;
+}
+.modal-header:before{
+    content: " ";
+    width: 78px;
+    height: 3px;
+    background: #ffb3a7;
+    position: absolute;
+    top: 11px;
+}
+.modal-header:after{
+    content: " ";
+    width: 78px;
+    height: 3px;
+    background: #ffb3a7;
+    position: absolute;
+    top: 45px;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: none;
+    min-height: 16.43px;
+    display: flex;
+    justify-content: center;
+table tr:nth-child(2n), thead {
+    background-color: #758a99;
+}
+.ty-table-edit{
+    background: #758a99;
+    width: 800px;
+    margin-left: 0;
+}
