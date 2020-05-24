@@ -477,7 +477,8 @@ border-left: 4px solid #ffb3a7;
 padding: 0 15px;
 color: rgb(233, 241, 246);
 background: #758a99;
-padding-top: 5px
+padding-top: 10px;
+padding-bottom: 10px;
 }
 #write > pre:before{
 	content: " ";
@@ -655,4 +656,8 @@ a {
 .md-toc {
     margin-top: 45px;
     padding-bottom: 20px;
+}
+[md-inline=url], [md-inline=link]>.md-content, [md-inline=image]>.md-meta {
+    word-break: break-all;
+    color: rgb(233, 241, 246);;
 }
