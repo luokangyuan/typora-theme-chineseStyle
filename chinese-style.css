@@ -596,3 +596,8 @@ table tr:nth-child(2n), thead {
     width: 800px;
     margin-left: 0;
 }
+.cm-s-typora-default .cm-code, .cm-s-typora-default .cm-comment {
+    color: #ffb3a7;
+    font-family: monospace;
+    font-family: var(--monospace);
+}
