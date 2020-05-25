@@ -3,7 +3,6 @@
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 @font-face {
     font-family: 'Open Sans';
@@ -61,9 +60,7 @@ body > *:first-child {
 body > *:last-child {
     margin-bottom: 0 !important;
 }
-a {
-    color: #4183C4;
-}
+
 h1,
 h2,
 h3,
@@ -411,7 +408,7 @@ body{
 position: relative;
 color: rgb(233, 241, 246);
 }
-pre.contain-cm {
+pre.contain-cm,pre.ty-contain-cm {
 white-space: normal;
 background: #2B2B2B;
 box-shadow: 0 15px 35px rgba(0, 0, 0, .1), 0 5px 15px rgba(0, 0, 0, .07);
@@ -589,6 +586,7 @@ html{
     min-height: 16.43px;
     display: flex;
     justify-content: center;
+}
 table tr:nth-child(2n), thead {
     background-color: #758a99;
 }
@@ -624,8 +622,11 @@ a {
     background: #758a99;
     border: none;
 }
-.md-toc-content a {
-    color: rgb(233, 241, 246);
+#write .md-toc-content a {
+    color: rgb(233, 241, 246) !important;
+}
+#write .md-toc-item {
+    color: rgb(233, 241, 246) !important;
 }
 .md-toc-h1{
     font-size: 20px;
@@ -642,7 +643,7 @@ a {
 .md-toc-content span {
     padding-bottom: 3px;
 }
-.md-toc:before{
+#write .md-toc:before{
     content: "目录";
     width: 200px;
     height: 200px;
@@ -652,6 +653,7 @@ a {
     font-size: 30px;
     top: -45px;
     left: 400px;
+    z-index: 99;
 }
 .md-toc {
     margin-top: 45px;
@@ -659,5 +661,13 @@ a {
 }
 [md-inline=url], [md-inline=link]>.md-content, [md-inline=image]>.md-meta {
     word-break: break-all;
-    color: rgb(233, 241, 246);;
+    color: rgb(233, 241, 246);
+}
+#write.first-line-indent p {
+    text-indent: 0;
+}
+
+.md-toc-item {
+    display: block;
+    color: rgb(233, 241, 246);
 }
