@@ -408,13 +408,13 @@ body{
 position: relative;
 color: rgb(233, 241, 246);
 }
-pre.contain-cm,pre.ty-contain-cm {
+pre.contain-cm,pre.ty-contain-cm,pre.md-fences {
 white-space: normal;
 background: #2B2B2B;
 box-shadow: 0 15px 35px rgba(0, 0, 0, .1), 0 5px 15px rgba(0, 0, 0, .07);
 border: none;
 border-radius: 5px;
-padding-top: 30px;
+padding-top: 50px;
 padding-bottom: 10px;
 }
 .md-fences, code, tt {
