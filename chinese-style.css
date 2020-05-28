@@ -680,3 +680,15 @@ a {
 .cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
     color: #f8f8f2;
 }
+.CodeMirror-cursors{
+	color: #fff !important;
+	caret-color:#fff;
+}
+.CodeMirror-cursor{
+	color: #fff !important;
+	caret-color:#fff;
+}
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #fff !important;
+    z-index: 3;
+}
