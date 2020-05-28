@@ -671,3 +671,12 @@ a {
     display: block;
     color: rgb(233, 241, 246);
 }
+.cm-s-inner .cm-property {
+    color: rgb(171, 227, 56);
+}
+.cm-s-inner .cm-variable-2 {
+    color: rgb(0, 224, 224);
+}
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
+    color: #f8f8f2;
+}
