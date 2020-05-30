@@ -692,3 +692,6 @@ a {
     border-left: 1px solid #fff !important;
     z-index: 3;
 }
+.cm-s-inner .cm-tag {
+    color: #e6cd69 ;
+}
