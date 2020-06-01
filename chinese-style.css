@@ -695,3 +695,14 @@ a {
 .cm-s-inner .cm-tag {
     color: #e6cd69 ;
 }
+.preference-item-setting select{
+	background: #50616d;
+}
+.megamenu-menu-panel .btn:hover{
+	color: #ffb3a7;
+	background-color: transparent
+	
+}
+.info-panel-tab:hover{
+	color: #ffb3a7
+}
