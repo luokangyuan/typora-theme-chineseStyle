@@ -706,3 +706,6 @@ a {
 .info-panel-tab:hover{
 	color: #ffb3a7
 }
+img {
+	border-radius: 5px
+}
