@@ -709,26 +709,3 @@ a {
 img {
 	border-radius: 5px
 }
-h1 {
- counter-reset: test1 0;
-}
-h2{
-	counter-increment: test1; counter-reset: test2 0;}
-h3{
-	counter-increment: test2 ;counter-reset: test3 0;
-}
-h4{
-	counter-increment: test3;
-}
-
-h2::before {
-  content:counter(test1) ". ";
-}
-
-h3::before {
-   content:counter(test1)"."counter(test2)". ";
-}
-	
-h4::before {
-  content: counter(test1)"."counter(test2) "."counter(test3)". ";
-}
