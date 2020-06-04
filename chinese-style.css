@@ -709,3 +709,17 @@ a {
 img {
 	border-radius: 5px
 }
+
+.cm-s-inner .cm-builtin {
+    color: rgb(255, 128, 225);
+}
+.cm-s-inner .cm-attribute {
+    color: #ff9e59;
+}
+
+.cm-s-inner .cm-meta, .cm-s-inner .cm-qualifier {
+    color: #fff;
+}
+.cm-s-inner .cm-variable-3 {
+    color: rgb(158, 255, 255);
+}
