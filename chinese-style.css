@@ -723,3 +723,6 @@ img {
 .cm-s-inner .cm-variable-3 {
     color: rgb(158, 255, 255);
 }
+.file-list-item.active{
+	background: #758a99;
+}
