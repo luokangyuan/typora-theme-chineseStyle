@@ -724,5 +724,18 @@ img {
     color: rgb(158, 255, 255);
 }
 .file-list-item.active{
-	background: #758a99;
+    background: #758a99;
+}
+.file-tree-node.active .file-node-background{
+     background: #758a99;
+     color: #ffb3a7;
+}
+.file-node-content {
+    color: rgb(233, 241, 246);
+}
+.file-node-content:hover{
+    color: #ffb3a7;
+}
+.file-tree-node.active .file-node-content{
+     color: #ffb3a7;
 }
