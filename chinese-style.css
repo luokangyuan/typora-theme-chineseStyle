@@ -1,7 +1,9 @@
 :root {
+    --bg-color: #758A99;
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
 }
+
 
 
 @font-face {
@@ -301,13 +303,14 @@ tt {
 	background-color: #f8f8f8;
 }
 #write pre.md-meta-block {
-	padding: 1rem;
+    padding: 1rem;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #f7f7f7;
+    background-color: #50616d;
     border: 0;
     border-radius: 3px;
-    color: #777777;
+    border-bottom: 1px dashed #ddd;
+    color: #dfe2e5;
     margin-top: 0 !important;
 }
 
@@ -738,4 +741,22 @@ img {
 }
 .file-tree-node.active .file-node-content{
      color: #ffb3a7;
+}
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+	background: #50616d;
+}
+
+
+
+.ck-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
+    transition: background .5s linear;
+    background: #304458;
+    display: block;
+}
+
+
+.md-rawblock-on-edit>.md-rawblock-tooltip, .md-rawblock:hover>.md-rawblock-container, .md-rawblock:hover>.md-rawblock-tooltip {
+    transition: background .5s linear;
+    background: #304458;
+    display: block;
 }
